@@ -5,3 +5,7 @@ h1 {
 p {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+body {
+    background-color: bisque;
+}
