@@ -37,8 +37,15 @@ body {
 
 }
 
-nav ul{
-    display:inline
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    width: 60px;
 }
 /* Colors I like:
     - lightblue
