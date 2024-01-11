@@ -25,6 +25,10 @@ body {
     text-align: center;
 }
 
+.roundedimage {
+    border-radius: 25px;
+}
+
 /* Colors I like:
     - lightblue
     - #d1b794 (oatmeal) */
