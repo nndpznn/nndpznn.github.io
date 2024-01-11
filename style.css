@@ -5,12 +5,12 @@ h1 {
     text-align: center;
 }
 
-h2, p, li, footer {
+h2, p, li, a, footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-    background-color: lightblue;
+    background-color: #bf9b6b;
 }
 
 
@@ -18,5 +18,13 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 50%;
   }
+
+.textcenter {
+    text-align: center;
+}
+
+/* Colors I like:
+    - lightblue
+    - #bf9b6b (oatmeal) */
