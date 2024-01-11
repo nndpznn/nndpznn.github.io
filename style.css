@@ -1,17 +1,14 @@
 /* Thanks to W3Schools for plenty of html/CSS support. */
 
-h1 {
+h1, h2, p, li, footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
 
-p {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+    background-color: lightblue;
 }
 
-body {
-    background-color: bisque;
-}
 
 .center {
     display: block;
