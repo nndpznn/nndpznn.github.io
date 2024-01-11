@@ -1,8 +1,12 @@
 /* Thanks to W3Schools for plenty of html/CSS support. */
 
-h1, h2, p, li, footer {
+h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+}
+
+h2, p, li, footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
