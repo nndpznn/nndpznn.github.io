@@ -33,6 +33,12 @@ body {
     margin-right: 50px;
 
 }
+
+#navmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 /* Colors I like:
     - lightblue
     - #d1b794 (oatmeal) */
