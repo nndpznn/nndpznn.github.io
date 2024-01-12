@@ -37,6 +37,11 @@ body {
 
 }
 
+#top-of-page {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -46,6 +51,8 @@ nav ul {
 nav li {
     display: inline;
     width: 60px;
+    text-align:center;
+    font-size: 50px;
 }
 
 /* Colors I like:
