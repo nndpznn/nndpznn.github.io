@@ -34,25 +34,19 @@ body {
 #bodytext {
     margin-left: 50px;
     margin-right: 50px;
-
-}
-
-#top-of-page {
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    text-align:center;
+    padding: 25px;
 }
 
 nav li {
     display: inline;
     width: 60px;
-    text-align:center;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 /* Colors I like:
