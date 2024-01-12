@@ -43,7 +43,7 @@ nav ul {
     padding: 0;
 }
 
-li a {
+nav li a {
     display: inline;
     width: 60px;
 }
