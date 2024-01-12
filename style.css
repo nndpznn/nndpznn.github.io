@@ -43,14 +43,11 @@ nav ul {
     padding: 0;
 }
 
-nav li a {
+nav li {
     display: inline;
     width: 60px;
 }
 
-nav li {
-    display: inline;
-}
 /* Colors I like:
     - lightblue
     - #d1b794 (oatmeal) */
