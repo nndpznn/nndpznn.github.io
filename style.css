@@ -41,6 +41,11 @@ body {
     margin-right: 50px;
 }
 
+#aboutmepfp {
+    width: 30%;
+    left: 15;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
