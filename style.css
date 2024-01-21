@@ -32,7 +32,7 @@ body {
 }
 
 .text-on-right {
-    float:right;
+    float:left;
 }
 
 #bodytext {
