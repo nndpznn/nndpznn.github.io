@@ -47,10 +47,15 @@ nav ul {
     padding: 25px;
 }
 
+/* li {
+    margin-right: 40px;
+} */
+
 nav li {
     display: inline;
     width: 60px;
     font-size: 30px;
+    margin-right: 10px;
 }
 
 /* Colors I like:
