@@ -33,6 +33,7 @@ body {
 
 .text-on-right {
     float:left;
+    padding: 20px
 }
 
 #bodytext {
@@ -47,9 +48,9 @@ nav ul {
     padding: 25px;
 }
 
-/* li {
+li {
     margin-right: 40px;
-} */
+}
 
 nav li {
     display: inline;
