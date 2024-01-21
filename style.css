@@ -31,6 +31,10 @@ body {
     width: 50%;
 }
 
+.text-on-right {
+    float:right;
+}
+
 #bodytext {
     margin-left: 50px;
     margin-right: 50px;
