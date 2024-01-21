@@ -1,13 +1,15 @@
 /* Thanks to W3Schools for plenty of html/CSS support. */
 
-h1 {
+* {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 15;
+    right: 15;
+}
+
+h1 {
     text-align: center;
 }
 
-h2, p, li, a, footer {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
 body {
     background-color: #d1b794;
