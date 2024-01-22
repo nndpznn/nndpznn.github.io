@@ -16,9 +16,7 @@ body {
 }
 
 #nav-menu a {
-    color: black;
-    
-    
+    color: black;   
 }
 
 .imagecenter {
@@ -67,7 +65,7 @@ li {
 
 nav li {
     display: inline;
-    width: 60px;
+    width: 100px;
     font-size: 30px;
     margin-right: 10px;
 }
