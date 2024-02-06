@@ -15,9 +15,10 @@ body {
     background-color: #d1b794;
 }
 
-/* #nav-menu a {
+#nav-menu a {
     color: black;   
-} */
+    font-size: 30px;
+}
 
 .imagecenter {
     display: block;
@@ -66,7 +67,6 @@ nav ul {
 
 nav li {
     display: inline;
-    font-size: 30px;
     margin-right: 10px;
 }
 
