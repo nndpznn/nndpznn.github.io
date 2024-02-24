@@ -1,3 +1,4 @@
+import sitepfp2 from "./assets/sitepfp2.JPG";
 import "./style.css";
 
 function HomePage() {
@@ -10,7 +11,7 @@ function HomePage() {
         </b>
       </h1>
       <img
-        src="assets/sitepfp2.JPG"
+        src={sitepfp2}
         class="imagecenter scaled roundedimage"
         alt="Nolan PFP 2"
       />
