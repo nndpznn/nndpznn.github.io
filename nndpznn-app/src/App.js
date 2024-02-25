@@ -1,6 +1,6 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import HomePage from "./homePage";
+import HomePage from "./SitePages/homePage";
 import NavBar from "./UIComponents/navBar";
 
 function App() {
