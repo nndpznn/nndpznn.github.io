@@ -1,6 +1,7 @@
 // import logo from "./logo.svg";
 import "./App.css";
 import HomePage from "./homePage";
+import NavBar from "./UIComponents/navBar";
 
 function App() {
   return (
@@ -20,7 +21,10 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <HomePage />
+    <div>
+      <NavBar />
+      <HomePage />
+    </div>
   );
 }
 
