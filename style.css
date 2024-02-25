@@ -1,0 +1,75 @@
+/* Thanks to W3Schools for plenty of html/CSS support. */
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 15;
+    right: 15;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+body {
+    background-color: #d1b794;
+}
+
+#nav-menu a {
+    color: black;   
+    font-size: 30px;
+}
+
+.imagecenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.textcenter {
+    text-align: center;
+}
+
+.roundedimage {
+    border-radius: 25px;
+}
+
+.scaled {
+    width: 50%;
+}
+
+.text-on-right {
+    float:left;
+    padding: 20px
+}
+
+#bodytext {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#aboutmepfp {
+    width: 30%;
+    left: 15;
+}
+
+#socials {
+    font-size: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align:center;
+    padding: 25px;
+    color:black;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Colors I like:
+    - lightblue
+    - #d1b794 (oatmeal) */

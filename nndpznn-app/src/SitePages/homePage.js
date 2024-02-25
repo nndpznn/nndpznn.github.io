@@ -1,5 +1,5 @@
-import sitepfp2 from "./assets/sitepfp2.JPG";
-import "./style.css";
+import sitepfp2 from "../assets/sitepfp2.JPG";
+import "../style.css";
 
 function HomePage() {
   return (
