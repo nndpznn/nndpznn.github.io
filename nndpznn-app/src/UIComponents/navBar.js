@@ -1,32 +1,33 @@
 import "../style.css";
 
-function NavBar() {
+export default function NavBar() {
   return (
-    <nav>
+    <nav className="nav">
       <ul id="nav-menu">
-        <li>
-          <a href="../SitePages/homePage.js">
-            <b>HOME</b>
-          </a>
-        </li>
-        <li>
-          <a href="../SitePages/compsciPage.js">
-            <b>COMPSCI</b>
-          </a>
-        </li>
-        <li>
-          <a href="../SitePages/photovideoPage.js">
-            <b>CREATIVE</b>
-          </a>
-        </li>
-        <li>
-          <a href="../SitePages/aboutmePage.js">
-            <b>ABOUT ME</b>
-          </a>
-        </li>
+        <CustomLink href="/">
+          <b>HOME</b>
+        </CustomLink>
+        <CustomLink href="/compsci">
+          <b>COMPSCI</b>
+        </CustomLink>
+        <CustomLink href="/photovideo">
+          <b>CREATIVE</b>
+        </CustomLink>
+        <CustomLink href="/aboutme">
+          <b>ABOUT ME</b>
+        </CustomLink>
       </ul>
     </nav>
   );
 }
 
-export default NavBar;
+function CustomLink({ href, children, ...props }) {
+  const path = window.location.pathname;
+  return (
+    <li className={path === href ? "active" : ""}>
+      <a href={href} {...props}>
+        {children}
+      </a>
+    </li>
+  );
+}

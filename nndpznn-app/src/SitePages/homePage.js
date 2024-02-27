@@ -1,7 +1,7 @@
 import sitepfp2 from "../assets/sitepfp2.JPG";
 import "../style.css";
 
-function HomePage() {
+export default function Home() {
   return (
     <div id="top-of-page">
       <h1>
@@ -26,5 +26,3 @@ function HomePage() {
     </div>
   );
 }
-
-export default HomePage;
