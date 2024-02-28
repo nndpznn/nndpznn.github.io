@@ -45,7 +45,7 @@ export default function ContactFooter() {
       </nav>
 
       <p className="textcenter">
-        Questions? Email me at nolandelapaznguyen@gmail.com.
+        Questions? Email me at nolandelapaznguyen@gmail.com
       </p>
     </div>
   );

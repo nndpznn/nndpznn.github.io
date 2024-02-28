@@ -1,4 +1,6 @@
+// import { Document, Page } from "react-pdf";
 import nolanhiking from "../assets/nolanhiking.jpeg";
+// import nolanpdf from "../assets/NolanNguyenResume_0224.pdf";
 import "../style.css";
 
 export default function AboutMe() {
@@ -22,11 +24,14 @@ export default function AboutMe() {
         My name is Nolan Delapaz Nguyen - I am a second-year computer science
         student currently attending Loyola Marymount University.
         <br></br>
-        <a href="../assets/NolanNguyenResume_0124.pdf" target="_blank">
+        <a href="../assets/NolanNguyenResume_0224.pdf" target="_blank">
           Read my CV here.
         </a>
       </p>
       <p>I was born and raised in Alameda, CA, in the SF Bay Area.</p>
+      {/* <Document file={nolanpdf}>
+        <Page pageNumber={1} />
+      </Document> */}
     </div>
   );
 }
