@@ -12,11 +12,11 @@ export default function Home() {
       </h1>
       <img
         src={sitepfp2}
-        class="imagecenter scaled roundedimage"
+        className="imagecenter scaled roundedimage"
         alt="Nolan PFP 2"
       />
 
-      <p class="textcenter">
+      <p className="textcenter">
         I'm currently learning HTML and CSS to make it look pretty. Eventually,
         it'll serve as a central hub for all of my Computer Science and creative
         projects.

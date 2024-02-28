@@ -7,7 +7,7 @@ export default function CompSci() {
       <h1>Computer Science Projects</h1>
       <img
         src={stupidLaptopPicture}
-        class="imagecenter scaled roundedimage"
+        className="imagecenter scaled roundedimage"
         alt="laptop stock"
       />
     </div>

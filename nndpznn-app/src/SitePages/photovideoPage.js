@@ -16,7 +16,7 @@ export default function PhotoVideo() {
 
       <br></br>
 
-      <h2 class="textcenter">My Time at the Loyolan</h2>
+      <h2 className="textcenter">My Time at the Loyolan</h2>
 
       <a
         href="https://www.laloyolan.com/users/profile/nolan%20nguyen/"
@@ -25,7 +25,7 @@ export default function PhotoVideo() {
       >
         <img
           src={loyolanBanner}
-          class="imagecenter roundedimage"
+          className="imagecenter roundedimage"
           alt="loyolan logo"
         />
       </a>

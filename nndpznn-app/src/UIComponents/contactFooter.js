@@ -44,7 +44,7 @@ export default function ContactFooter() {
         </ul>
       </nav>
 
-      <p class="textcenter">
+      <p className="textcenter">
         Questions? Email me at nolandelapaznguyen@gmail.com.
       </p>
     </div>

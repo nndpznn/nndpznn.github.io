@@ -10,7 +10,7 @@ export default function AboutMe() {
 
       <img
         src={nolanhiking}
-        class="roundedimage text-on-right"
+        className="roundedimage text-on-right"
         width="50%"
         id="aboutmepfp"
         alt="nolan hiking in the bay area"
