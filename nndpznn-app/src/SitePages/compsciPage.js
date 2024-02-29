@@ -1,6 +1,6 @@
 import "../css/masterStyle.css";
 
-import GenericButton from "../UIComponents/genericButton";
+// import GenericButton from "../UIComponents/genericButton";
 
 import stupidLaptopPicture from "../assets/laptopimage.jpg";
 

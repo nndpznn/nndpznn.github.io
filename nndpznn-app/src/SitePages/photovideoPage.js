@@ -10,8 +10,8 @@ export default function PhotoVideo() {
       <h1>Photo and Video</h1>
       <p>
         Since middle school, videography has been my primary creative outlet,
-        enabling me to store and present my most precious memories to others, as
-        well as land me opportunities to work and develop my skills at my
+        enabling me to store and present my most precious memories to others,
+        and landing me opportunities to work and develop my skills such as in my
         current position as <strong>Video Coordinator</strong> at the Los
         Angeles Loyolan.
       </p>
