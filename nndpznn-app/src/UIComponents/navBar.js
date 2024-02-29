@@ -1,10 +1,11 @@
-import "../style.css";
+import "../css/masterStyle.css";
+import "../css/navBar.css";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
 export default function NavBar() {
   return (
     <nav className="nav">
-      <ul id="nav-menu">
+      <ul>
         <CustomLink to="/">
           <b>HOME</b>
         </CustomLink>

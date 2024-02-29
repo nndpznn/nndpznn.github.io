@@ -1,4 +1,4 @@
-import "../style.css";
+import "../css/masterStyle.css";
 
 export default function ContactFooter() {
   return (

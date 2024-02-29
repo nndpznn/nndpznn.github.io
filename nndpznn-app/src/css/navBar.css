@@ -1,0 +1,39 @@
+.nav {
+    /* background-color: #70798f; */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.nav ul {
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav li {
+    padding: 10px;
+}
+
+.nav li.active {
+    background-color: #988185;
+    border-radius: 15px;
+}
+
+.nav li:hover {
+    color: #555555;
+}
+
+.nav a {
+    color: inherit;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 0.25rem;
+}

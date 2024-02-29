@@ -1,6 +1,8 @@
-import loyolanBanner from "../assets/loyolanbanner.jpeg";
+import "../css/masterStyle.css";
 
-import "../style.css";
+import GenericButton from "../UIComponents/genericButton";
+
+import loyolanBanner from "../assets/loyolanbanner.jpeg";
 
 export default function PhotoVideo() {
   return (
@@ -39,6 +41,12 @@ export default function PhotoVideo() {
 
       <br></br>
 
+      <GenericButton
+        to="https://www.laloyolan.com/users/profile/nolan%20nguyen/"
+        target="_blank"
+        buttonTitle="My Staff Page"
+      ></GenericButton>
+
       <p>
         Throughout my time at the Loyolan, I have been met with nothing but
         kindness and encouragement to improve as not only a videographer, but
@@ -46,24 +54,14 @@ export default function PhotoVideo() {
         since being hired have allowed me to explore the college experience and
         get familiar with all kinds of people, as well as create actual change
         through the impact the Loyolan has on the LMU community.{" "}
-        <a
-          href="https://www.laloyolan.com/users/profile/nolan%20nguyen/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          (My staff page)
-        </a>
       </p>
-      <h2>
-        <a
-          href="https://www.youtube.com/@-nolan"
-          target="_blank"
-          rel="noreferrer"
-        >
-          My personal channel
-        </a>
-      </h2>
-      {/* <!-- <img src="assets/loyolanbanner.jpeg" /> --> */}
+
+      <GenericButton
+        to="https://www.youtube.com/@-nolan"
+        target="_blank"
+        buttonTitle="My Personal Channel"
+      ></GenericButton>
+
       <p>
         The kinds of videos I post on my personal channel are the reason I
         started making videos in the first place. While I do have a lot of fun

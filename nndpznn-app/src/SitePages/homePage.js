@@ -1,5 +1,5 @@
+import "../css/masterStyle.css";
 import sitepfp2 from "../assets/sitepfp2.JPG";
-import "../style.css";
 
 export default function Home() {
   return (
@@ -17,11 +17,9 @@ export default function Home() {
       />
 
       <p className="textcenter">
-        I'm currently learning HTML and CSS to make it look pretty. Eventually,
-        it'll serve as a central hub for all of my Computer Science and creative
-        projects.
-        <br></br>
-        But, for the time being ... here it is.
+        I'm currently learning React, HTML and CSS to make it look pretty.
+        Eventually, it'll serve as a central hub for all of my Computer Science
+        and creative projects. But, for the time being ... here it is.
       </p>
     </div>
   );
