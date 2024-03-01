@@ -24,14 +24,7 @@ a {
     text-decoration: none;
 }
 
-.footer {
-    /* position: fixed; */
-    font-size: 20px;
-    text-align: center;
-    bottom: 0;
-}
-
-.imagecenter {
+.elementcenter {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -55,7 +48,7 @@ a {
 }
 
 .aboutmepfp {
-    width: 30%;
+    width: 700px;
     left: 15;
 }
 

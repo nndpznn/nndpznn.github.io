@@ -10,15 +10,24 @@ export default function PhotoVideo() {
       <h1>Photo and Video</h1>
       <p>
         Since middle school, videography has been my primary creative outlet,
-        enabling me to store and present my most precious memories to others,
-        and landing me opportunities to work and develop my skills such as in my
+        enabling me to save and present my most precious memories to others, and
+        landing me opportunities to work and develop my skills such as in my
         current position as <strong>Video Coordinator</strong> at the Los
         Angeles Loyolan.
       </p>
 
       <br></br>
 
-      <h2 className="textcenter">My Time at the Loyolan</h2>
+      {/* <h2 className="textcenter">My Time at the Loyolan</h2> */}
+
+      <GenericButton
+        to="https://www.laloyolan.com/users/profile/nolan%20nguyen/"
+        target="_blank"
+        buttonTitle="My Loyolan Work"
+      ></GenericButton>
+
+      <br></br>
+      <br></br>
 
       <a
         href="https://www.laloyolan.com/users/profile/nolan%20nguyen/"
@@ -27,7 +36,7 @@ export default function PhotoVideo() {
       >
         <img
           src={loyolanBanner}
-          className="imagecenter roundedimage"
+          className="elementcenter roundedimage"
           alt="loyolan logo"
         />
       </a>
@@ -39,21 +48,13 @@ export default function PhotoVideo() {
         </em>
       </p>
 
-      <br></br>
-
-      <GenericButton
-        to="https://www.laloyolan.com/users/profile/nolan%20nguyen/"
-        target="_blank"
-        buttonTitle="My Staff Page"
-      ></GenericButton>
-
       <p>
         Throughout my time at the Loyolan, I have been met with nothing but
-        kindness and encouragement to improve as not only a videographer, but
+        motivation and encouragement to improve as not only a videographer, but
         also as a team member and leader. The projects I've been involved in
         since being hired have allowed me to explore the college experience and
-        get familiar with all kinds of people, as well as create actual change
-        through the impact the Loyolan has on the LMU community.{" "}
+        get familiar with all kinds of stories, as well as create actual change
+        through the impact the Loyolan has on the LMU community.
       </p>
 
       <GenericButton

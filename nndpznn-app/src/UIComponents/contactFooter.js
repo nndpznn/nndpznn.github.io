@@ -1,9 +1,10 @@
 import "../css/masterStyle.css";
+import "../css/contactFooter.css";
 
 export default function ContactFooter() {
   return (
-    <div className="footer">
-      <nav className="nav">
+    <div>
+      <nav className="nav footer">
         <ul>
           <li>
             <a

@@ -11,7 +11,7 @@ export default function CompSci() {
 
       <img
         src={stupidLaptopPicture}
-        className="imagecenter scaled roundedimage"
+        className="elementcenter scaled roundedimage"
         alt="laptop stock"
       />
 
