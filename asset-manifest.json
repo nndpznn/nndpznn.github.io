@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1114b49f.css",
-    "main.js": "/static/js/main.ee6d8c1e.js",
+    "main.css": "/static/css/main.ef45519e.css",
+    "main.js": "/static/js/main.6226e4dd.js",
     "static/js/453.a298f24d.chunk.js": "/static/js/453.a298f24d.chunk.js",
     "static/media/sitepfp2.JPG": "/static/media/sitepfp2.0e1dbef4f9dbd2aa2580.JPG",
     "static/media/nolanhiking.jpeg": "/static/media/nolanhiking.2ecb47234bbde1d508a5.jpeg",
@@ -9,12 +9,12 @@
     "static/media/laptopimage.jpg": "/static/media/laptopimage.96348ce30a7977a590a2.jpg",
     "static/media/loyolanbanner.jpeg": "/static/media/loyolanbanner.b025811992827b1706fb.jpeg",
     "index.html": "/index.html",
-    "main.1114b49f.css.map": "/static/css/main.1114b49f.css.map",
-    "main.ee6d8c1e.js.map": "/static/js/main.ee6d8c1e.js.map",
+    "main.ef45519e.css.map": "/static/css/main.ef45519e.css.map",
+    "main.6226e4dd.js.map": "/static/js/main.6226e4dd.js.map",
     "453.a298f24d.chunk.js.map": "/static/js/453.a298f24d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1114b49f.css",
-    "static/js/main.ee6d8c1e.js"
+    "static/css/main.ef45519e.css",
+    "static/js/main.6226e4dd.js"
   ]
 }
