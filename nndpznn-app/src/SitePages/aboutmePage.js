@@ -13,7 +13,6 @@ export default function AboutMe() {
       <img
         src={nolanhiking}
         className="roundedimage text-on-right aboutmepfp"
-        width="50%"
         alt="nolan hiking in the bay area"
       />
 

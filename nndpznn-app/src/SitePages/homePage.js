@@ -18,9 +18,11 @@ export default function Home() {
 
       <p className="textcenter">
         I'm currently learning React, HTML and CSS to make it look pretty.
-        Eventually, it'll serve as a central hub for all of my Computer Science
-        and creative projects. But, for the time being ... here it is.
+        Eventually, it'll serve as a central hub for all of my computer science
+        and creative projects. But, for the time being ... here it is, in all
+        its simple glory.
       </p>
+      <br></br>
     </div>
   );
 }

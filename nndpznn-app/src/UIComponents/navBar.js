@@ -18,6 +18,9 @@ export default function NavBar() {
         <CustomLink to="/aboutme">
           <b>ABOUT ME</b>
         </CustomLink>
+        <CustomLink to="/resume">
+          <b>RESUME</b>
+        </CustomLink>
       </ul>
     </nav>
   );

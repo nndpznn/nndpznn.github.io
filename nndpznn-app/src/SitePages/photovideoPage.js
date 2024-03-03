@@ -57,6 +57,9 @@ export default function PhotoVideo() {
         through the impact the Loyolan has on the LMU community.
       </p>
 
+      <hr></hr>
+      <br></br>
+
       <GenericButton
         to="https://www.youtube.com/@-nolan"
         target="_blank"

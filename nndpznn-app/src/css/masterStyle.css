@@ -7,10 +7,11 @@
 
 h1 {
     text-align: center;
+    font-size: 2.2vw;
 }
 
 p {
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 body {
@@ -22,6 +23,11 @@ body {
 
 a {
     text-decoration: none;
+}
+
+hr {
+    border: 3px solid #ddc9af;
+    border-radius: 3px;
 }
 
 .elementcenter {
@@ -48,7 +54,7 @@ a {
 }
 
 .aboutmepfp {
-    width: 700px;
+    width: 500px;
     left: 15;
 }
 
