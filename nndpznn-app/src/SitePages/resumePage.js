@@ -12,8 +12,8 @@ export default function Resume() {
         title="nolan's resume"
         src={nolanpdf}
         frameborder="0"
-        width="70%"
-        height="1400"
+        width="50%"
+        height="1070"
       ></iframe>
       <br></br>
     </div>
