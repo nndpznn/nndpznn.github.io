@@ -44,8 +44,12 @@ hr {
     border-radius: 25px;
 }
 
-.scaled {
-    width: 50%;
+.scaled50 {
+    width: 50vw;
+}
+
+.banner {
+    width: 80vw;
 }
 
 .text-on-right {
@@ -54,7 +58,7 @@ hr {
 }
 
 .aboutmepfp {
-    width: 500px;
+    width: 35vw;
     left: 15;
 }
 

@@ -36,7 +36,7 @@ export default function PhotoVideo() {
       >
         <img
           src={loyolanBanner}
-          className="elementcenter roundedimage"
+          className="elementcenter banner roundedimage"
           alt="loyolan logo"
         />
       </a>

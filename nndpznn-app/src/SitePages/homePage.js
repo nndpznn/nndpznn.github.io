@@ -12,7 +12,7 @@ export default function Home() {
       </h1>
       <img
         src={sitepfp2}
-        className="elementcenter scaled roundedimage"
+        className="elementcenter scaled50 roundedimage"
         alt="Nolan PFP 2"
       />
 
@@ -20,7 +20,7 @@ export default function Home() {
         I'm currently learning React, HTML and CSS to make it look pretty.
         Eventually, it'll serve as a central hub for all of my computer science
         and creative projects. But, for the time being ... here it is, in all
-        its simple glory.
+        its bare-bones glory.
       </p>
       <br></br>
     </div>

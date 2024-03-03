@@ -12,7 +12,7 @@ export default function CompSci() {
 
       <img
         src={notfoundPlaceholder}
-        className="elementcenter scaled roundedimage"
+        className="elementcenter scaled50 roundedimage"
         alt="not found placeholder"
       />
 
