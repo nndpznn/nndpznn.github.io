@@ -45,8 +45,12 @@ hr {
     border-radius: 25px;
 }
 
-.scaled75 {
+.width75 {
     width: 75vh;
+}
+
+.width85 {
+    width: 85vh;
 }
 
 .banner {
@@ -61,6 +65,11 @@ hr {
 .aboutmepfp {
     width: 60vh;
     left: 15;
+}
+
+.resume {
+    width: 50vw;
+    height: 116vh;
 }
 
 /* Colors I like:

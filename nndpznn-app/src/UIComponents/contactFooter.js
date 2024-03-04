@@ -46,7 +46,7 @@ export default function ContactFooter() {
       </nav>
 
       <p className="textcenter">
-        v2.5 powered by React | Questions? Email me at
+        v2.6 powered by React | Questions? Email me at
         nolandelapaznguyen@gmail.com
       </p>
     </div>

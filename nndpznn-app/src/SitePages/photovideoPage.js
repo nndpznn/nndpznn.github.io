@@ -2,23 +2,31 @@ import "../css/masterStyle.css";
 
 import GenericButton from "../UIComponents/genericButton";
 
+import nolancamera from "../assets/nolanwcameraWIDE.JPG";
 import loyolanBanner from "../assets/loyolanbanner.jpeg";
+import nolanchannelbanner from "../assets/nolanchannelbanner.jpg";
 
 export default function PhotoVideo() {
   return (
     <div>
       <h1>Photo and Video</h1>
+
+      <img
+        src={nolancamera}
+        className="elementcenter width85 roundedimage"
+        alt="nolan camera portrait"
+      />
+
       <p>
-        Since middle school, videography has been my primary creative outlet,
-        enabling me to save and present my most precious memories to others, and
-        landing me opportunities to work and develop my skills such as in my
-        current position as <strong>Video Coordinator</strong> at the Los
-        Angeles Loyolan.
+        Since middle school, photo and video have been my primary creative
+        outlets, enabling me to save and present my most precious memories to
+        others, and landing me opportunities to work and develop my skills such
+        as in my current position as <strong>Video Coordinator</strong> at the
+        Los Angeles Loyolan.
       </p>
 
+      <hr></hr>
       <br></br>
-
-      {/* <h2 className="textcenter">My Time at the Loyolan</h2> */}
 
       <GenericButton
         to="https://www.laloyolan.com/users/profile/nolan%20nguyen/"
@@ -65,6 +73,21 @@ export default function PhotoVideo() {
         target="_blank"
         buttonTitle="My Personal Channel"
       ></GenericButton>
+
+      <br></br>
+      <br></br>
+
+      <a
+        href="https://www.youtube.com/@-nolan"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          src={nolanchannelbanner}
+          className="elementcenter banner roundedimage"
+          alt="nolan's youtube channel preview"
+        />
+      </a>
 
       <p>
         The kinds of videos I post on my personal channel are the reason I

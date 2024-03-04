@@ -12,7 +12,7 @@ export default function Home() {
       </h1>
       <img
         src={sitepfp2}
-        className="elementcenter scaled75 roundedimage"
+        className="elementcenter width75 roundedimage"
         alt="Nolan PFP 2"
       />
 
@@ -22,7 +22,6 @@ export default function Home() {
         and creative projects. But, for the time being ... here it is, in all
         its bare-bones glory.
       </p>
-      <br></br>
     </div>
   );
 }

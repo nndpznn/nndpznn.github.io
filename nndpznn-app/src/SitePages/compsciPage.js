@@ -12,7 +12,7 @@ export default function CompSci() {
 
       <img
         src={notfoundPlaceholder}
-        className="elementcenter scaled75 roundedimage"
+        className="elementcenter width75 roundedimage"
         alt="not found placeholder"
       />
 
@@ -29,8 +29,8 @@ export default function CompSci() {
       ></GenericButton>
 
       <br></br>
-      <hr></hr>
-      <h1>My Skills</h1>
+      {/* <hr></hr>
+      <h1>My Skills</h1> */}
     </div>
   );
 }

@@ -8,12 +8,10 @@ export default function Resume() {
     <div className="container">
       <h1>Resume</h1>
       <iframe
-        className="elementcenter"
+        className="elementcenter resume"
         title="nolan's resume"
         src={nolanpdf}
         frameborder="0"
-        width="50%"
-        height="1070"
       ></iframe>
       <br></br>
     </div>
