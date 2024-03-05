@@ -66,7 +66,7 @@ export default function PhotoVideo() {
         through the impact the Loyolan has on the LMU community.
       </p>
 
-      <h1>FEATURE: Albert the Crossing Guard</h1>
+      {/* <NolnHeader headerTitle="Feature: Albert the Crossing Guard"></NolnHeader> */}
 
       <hr></hr>
       <br></br>
