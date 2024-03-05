@@ -1,10 +1,10 @@
 import "../css/masterStyle.css";
-import "../css/genericButton.css";
+import "../css/nolnButton.css";
 
-export default function GenericButton(props) {
+export default function NolnButton(props) {
   return (
     <a href={props.to} target={props.target} rel="noreferrer">
-      <button type="button" className={`genericButton ${props.className}`}>
+      <button type="button" className={`nolnButton ${props.className}`}>
         <b>{props.buttonTitle}</b>
       </button>
     </a>

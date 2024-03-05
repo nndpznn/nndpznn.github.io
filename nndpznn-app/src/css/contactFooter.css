@@ -1,5 +1,6 @@
 .footer {
     /* position: fixed; */
+    border-radius: 15px;
     font-size: 3vh;
     text-align: center;
     bottom: 0;

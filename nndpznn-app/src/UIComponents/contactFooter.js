@@ -49,6 +49,7 @@ export default function ContactFooter() {
         v2.6 powered by React | Questions? Email me at
         nolandelapaznguyen@gmail.com
       </p>
+      <br></br>
     </div>
   );
 }

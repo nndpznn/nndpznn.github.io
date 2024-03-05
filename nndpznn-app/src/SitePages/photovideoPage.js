@@ -1,6 +1,7 @@
 import "../css/masterStyle.css";
 
-import GenericButton from "../UIComponents/genericButton";
+import NolnButton from "../UIComponents/nolnButton";
+import NolnHeader from "../UIComponents/nolnHeader";
 
 import nolancamera from "../assets/nolanwcameraWIDE.JPG";
 import loyolanBanner from "../assets/loyolanbanner.jpeg";
@@ -9,7 +10,7 @@ import nolanchannelbanner from "../assets/nolanchannelbanner.jpg";
 export default function PhotoVideo() {
   return (
     <div>
-      <h1>Photo and Video</h1>
+      <NolnHeader headerTitle="Photo and Video"></NolnHeader>
 
       <img
         src={nolancamera}
@@ -28,11 +29,11 @@ export default function PhotoVideo() {
       <hr></hr>
       <br></br>
 
-      <GenericButton
+      <NolnButton
         to="https://www.laloyolan.com/users/profile/nolan%20nguyen/"
         target="_blank"
         buttonTitle="My Loyolan Work"
-      ></GenericButton>
+      ></NolnButton>
 
       <br></br>
       <br></br>
@@ -65,14 +66,16 @@ export default function PhotoVideo() {
         through the impact the Loyolan has on the LMU community.
       </p>
 
+      <h1>FEATURE: Albert the Crossing Guard</h1>
+
       <hr></hr>
       <br></br>
 
-      <GenericButton
+      <NolnButton
         to="https://www.youtube.com/@-nolan"
         target="_blank"
         buttonTitle="My Personal Channel"
-      ></GenericButton>
+      ></NolnButton>
 
       <br></br>
       <br></br>

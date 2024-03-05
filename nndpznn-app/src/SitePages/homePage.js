@@ -1,15 +1,17 @@
 import "../css/masterStyle.css";
+
+import NolnHeader from "../UIComponents/nolnHeader";
+
 import sitepfp2 from "../assets/sitepfp2.JPG";
 
 export default function Home() {
   return (
     <div id="top-of-page">
-      <h1>
-        <b>
-          Hello, welcome to Nolan Nguyen's personal site! This is a
-          work-in-progress.
-        </b>
-      </h1>
+      <NolnHeader
+        headerTitle="Hello, welcome to Nolan Nguyen's personal site! This is a
+          work-in-progress."
+      ></NolnHeader>
+
       <img
         src={sitepfp2}
         className="elementcenter width75 roundedimage"

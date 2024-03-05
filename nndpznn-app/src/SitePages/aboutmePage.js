@@ -1,14 +1,15 @@
 import "../css/masterStyle.css";
-import GenericButton from "../UIComponents/genericButton";
+
+import NolnButton from "../UIComponents/nolnButton";
+import NolnHeader from "../UIComponents/nolnHeader";
+
 import nolanhiking from "../assets/nolanhiking.jpeg";
 import nolanpdf from "../assets/NolanNguyenResume_0224.pdf";
 
 export default function AboutMe() {
   return (
     <div id="top-of-page">
-      <h1>
-        <b>About Nolan Nguyen </b>
-      </h1>
+      <NolnHeader headerTitle="About Nolan Nguyen"></NolnHeader>
 
       <img
         src={nolanhiking}
@@ -35,13 +36,13 @@ export default function AboutMe() {
         want to hang out :)
       </p>
 
-      <GenericButton
+      <NolnButton
         className="elementcenter"
         to={nolanpdf}
         target="_blank"
         rel="noreferrer"
         buttonTitle="Read my Resume Here"
-      ></GenericButton>
+      ></NolnButton>
 
       <br></br>
     </div>

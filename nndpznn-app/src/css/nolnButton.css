@@ -1,4 +1,4 @@
-.genericButton {
+.nolnButton {
     background-color: #988185;
     border: none;
     border-radius: 15px;
@@ -9,6 +9,6 @@
     text-decoration: none;
 }
 
-.genericButton:hover {
+.nolnButton:hover {
     color: #555555;
 }

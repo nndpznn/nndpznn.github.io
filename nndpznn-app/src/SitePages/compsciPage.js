@@ -1,14 +1,14 @@
 import "../css/masterStyle.css";
 
-import GenericButton from "../UIComponents/genericButton";
+import NolnButton from "../UIComponents/nolnButton";
+import NolnHeader from "../UIComponents/nolnHeader";
 
-// import stupidLaptopPicture from "../assets/laptopimage.jpg";
 import notfoundPlaceholder from "../assets/anyonehome.jpg";
 
 export default function CompSci() {
   return (
     <div>
-      <h1>Computer Science Projects</h1>
+      <NolnHeader headerTitle="Computer Science Projects"></NolnHeader>
 
       <img
         src={notfoundPlaceholder}
@@ -21,12 +21,12 @@ export default function CompSci() {
         displaying my projects. For now, take a look at my GitHub profile.
       </p>
 
-      <GenericButton
+      <NolnButton
         className="elementcenter"
         to="https://github.com/nndpznn"
         target="_blank"
         buttonTitle="nndpznn on GitHub"
-      ></GenericButton>
+      ></NolnButton>
 
       <br></br>
       {/* <hr></hr>
