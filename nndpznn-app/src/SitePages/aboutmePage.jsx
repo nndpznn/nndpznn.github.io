@@ -35,6 +35,8 @@ export default function AboutMe() {
         out if you have anything cool to share, or if you just want to chat :)
       </p>
 
+      <br></br>
+
       <NolnButton
         className="elementcenter"
         to={nolanpdf}

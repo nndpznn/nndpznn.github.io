@@ -11,13 +11,13 @@ export default function PhotoVideo() {
   return (
     <div>
       <NolnHeader headerTitle="Photo and Video"></NolnHeader>
-
+      <br></br>
       <img
         src={nolancamera}
         className="elementcenter width85 roundedimage"
         alt="nolan camera portrait"
       />
-
+      <br></br>
       <p>
         Since middle school, photo and video have been my primary creative
         outlets, enabling me to save and present my most precious memories to

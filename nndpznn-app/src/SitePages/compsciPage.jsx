@@ -9,17 +9,19 @@ export default function CompSci() {
   return (
     <div>
       <NolnHeader headerTitle="Computer Science Projects"></NolnHeader>
-
+      <br></br>
       <img
         src={notfoundPlaceholder}
         className="elementcenter width75 roundedimage"
         alt="not found placeholder"
       />
-
+      <br></br>
       <p className="textcenter">
         Pardon the dust - I'm still figuring out the format I want to use for
         displaying my projects. For now, take a look at my GitHub profile.
       </p>
+
+      <br></br>
 
       <NolnButton
         className="elementcenter"

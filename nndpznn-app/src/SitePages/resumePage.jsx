@@ -10,6 +10,7 @@ export default function Resume() {
   return (
     <div className="container">
       <NolnHeader headerTitle="Resume"></NolnHeader>
+      <br></br>
       <iframe
         className="elementcenter resume"
         title="nolan's resume"
