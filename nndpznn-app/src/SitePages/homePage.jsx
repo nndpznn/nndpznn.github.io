@@ -23,7 +23,7 @@ export default function Home() {
         I'm currently learning React, HTML and CSS to make it look pretty.
         Eventually, it'll serve as a central hub for all of my computer science
         and creative projects. But, for the time being ... here it is, in all
-        its bare-bones glory.
+        its bare-bones glory. BEST VIEWED IN DESKTOP!
       </p>
       <br></br>
     </div>
