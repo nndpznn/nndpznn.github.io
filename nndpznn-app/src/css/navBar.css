@@ -23,12 +23,12 @@
 }
 
 .nav li.active {
-    background-color: #988185;
+    background-color: #6072f4;
     border-radius: 15px;
 }
 
 .nav li:hover {
-    color: #555555;
+    color: #FFFFFF;
 }
 
 .nav a {

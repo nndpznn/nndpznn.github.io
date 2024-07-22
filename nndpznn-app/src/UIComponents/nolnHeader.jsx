@@ -5,7 +5,7 @@ export default function NolnHeader(props) {
   return (
     <h1 className={`nolnHeader ${props.className}`}>
       <b>
-        <i>{props.headerTitle}</i>
+        {props.headerTitle}
       </b>
     </h1>
   );

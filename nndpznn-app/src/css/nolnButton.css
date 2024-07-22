@@ -1,5 +1,5 @@
 .nolnButton {
-    background-color: #988185;
+    background-color: #6072f4;
     border: none;
     border-radius: 15px;
     padding: 10px;
@@ -10,5 +10,5 @@
 }
 
 .nolnButton:hover {
-    color: #555555;
+    color: #FFFFFF;
 }

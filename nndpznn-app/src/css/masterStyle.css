@@ -12,11 +12,12 @@ h1 {
 
 p {
     font-size: 2.5vh;
+    margin: 50px 150px;
 }
 
 body {
     margin: 15px;
-    background-color: #d1b794;
+    background-color: #787b87;
     margin-left: 100px;
     margin-right: 100px;
     height: 100vh;
@@ -27,7 +28,7 @@ a {
 }
 
 hr {
-    border: 3px solid #ddc9af;
+    border: 3px solid #AAAAAA;
     border-radius: 3px;
 }
 

@@ -1,9 +1,9 @@
 .nolnHeader {
-    background-color: #988185;
-    padding: 10px;
+    /* display: inline-block; */
+    justify-content: center;
+    background-color: #6072f4;
+    padding: 8px 12px;
+    margin: 0 auto;
     text-decoration: none;
     border-radius: 15px;
 }
-
-/* .nolnHeader:hover {
-} */

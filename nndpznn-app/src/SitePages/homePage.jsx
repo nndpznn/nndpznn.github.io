@@ -7,10 +7,7 @@ import sitepfp2 from "../assets/sitepfp2.JPG";
 export default function Home() {
   return (
     <div id="top-of-page">
-      <NolnHeader
-        headerTitle="Hello, welcome to Nolan Nguyen's personal site! This is a
-          work-in-progress."
-      ></NolnHeader>
+      <h1 className="nolnHeader"><b>Nolan Nguyen</b></h1>
       <br></br>
       <img
         src={sitepfp2}
@@ -20,10 +17,9 @@ export default function Home() {
       <br></br>
 
       <p className="textcenter">
-        I'm currently learning React, HTML and CSS to make it look pretty.
-        Eventually, it'll serve as a central hub for all of my computer science
+        While currently a work-in-progress, this site will eventually serve as a central hub for all of my computer science
         and creative projects. But, for the time being ... here it is, in all
-        its bare-bones glory. BEST VIEWED IN DESKTOP!
+        its bare-bones glory. Best viewed in desktop.
       </p>
       <br></br>
     </div>
