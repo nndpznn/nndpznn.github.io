@@ -7,7 +7,7 @@ import sitepfp2 from "../assets/sitepfp2.JPG";
 export default function Home() {
   return (
     <div id="top-of-page">
-      <h1 className="nolnHeader"><b>Nolan Nguyen</b></h1>
+      <h1 className="nolnHeader"><b>Nolan Nguyen, rising junior CompSci major and videographer.</b></h1>
       <br></br>
       <img
         src={sitepfp2}
