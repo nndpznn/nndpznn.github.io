@@ -3,12 +3,13 @@
     border: none;
     border-radius: 15px;
     padding: 10px;
-
+    margin-bottom: 25px;
+    
     font-size: 4vh;
     text-align: center;
     text-decoration: none;
 }
 
 .nolnButton:hover {
-    color: #FFFFFF;
+    color: #CCCCCC;
 }

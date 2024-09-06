@@ -18,12 +18,12 @@ export default function PhotoVideo() {
         alt="nolan camera portrait"
       />
       <br></br>
-      <p>
+      <p className="blurb">
         Since middle school, photo and video have been my primary creative
         outlets, enabling me to save and present my most precious memories to
         others, and landing me opportunities to work and develop my skills such
-        as in my current position as <strong>Video Coordinator</strong> at the
-        Los Angeles Loyolan.
+        as in my position as <strong>Video Coordinator</strong> at the
+        Los Angeles Loyolan last year.
       </p>
 
       <hr></hr>
@@ -57,7 +57,7 @@ export default function PhotoVideo() {
         </em>
       </p>
 
-      <p>
+      <p className="blurb">
         Throughout my time at the Loyolan, I have been met with nothing but
         motivation and encouragement to improve as not only a videographer, but
         also as a team member and leader. The projects I've been involved in
@@ -92,7 +92,7 @@ export default function PhotoVideo() {
         />
       </a>
 
-      <p>
+      <p className="blurb">
         The kinds of videos I post on my personal channel are the reason I
         started making videos in the first place. While I do have a lot of fun
         making them, I still strive to improve some part of my technique or

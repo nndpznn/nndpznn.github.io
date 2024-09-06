@@ -4,13 +4,21 @@ import NolnButton from "../UIComponents/nolnButton";
 import NolnHeader from "../UIComponents/nolnHeader";
 
 import notfoundPlaceholder from "../assets/anyonehome.jpg";
+import pythonlogo from "../assets/pythonlogo.png";
+import jslogo from "../assets/JSLogo.png"
+import swiftlogo from "../assets/SwiftLogo.png"
+
+import reactlogo from "../assets/reactlogo.png"
+import threejslogo from "../assets/threejslogo.png"
+import nextjslogo from "../assets/nextjslogo.png"
+import discordbotslogo from "../assets/discordbots.svg"
 
 export default function CompSci() {
   return (
     <div>
       <NolnHeader headerTitle="Computer Science Projects"></NolnHeader>
       <br></br>
-      <img
+      {/* <img
         src={notfoundPlaceholder}
         className="elementcenter width75 roundedimage"
         alt="not found placeholder"
@@ -28,12 +36,45 @@ export default function CompSci() {
         to="https://github.com/nndpznn"
         target="_blank"
         buttonTitle="nndpznn on GitHub"
-      ></NolnButton>
+      ></NolnButton> */}
 
       <br></br>
+      <NolnButton className="elementcenter" to="https://github.com/nndpznn/viDoc" target="_blank" buttonTitle="viDoc"></NolnButton>
 
-      {/* <hr></hr>
-      <h1>My Skills</h1> */}
+      <p className="blurb"><strong>viDoc</strong> is a *work-in-progress* web app designed to streamline the creative process for video content creators, providing space to take notes, compose shotlists, and organize ideas visually on a graphic timeline. I'm making use of React with TypeScript, Next.js, Supabase and MaterialUI to put this together.</p>
+
+      <NolnButton className="elementcenter" to="https://github.com/nndpznn/FreeThrowMerchant" target="_blank" buttonTitle="FreeThrowMerchant"></NolnButton>
+
+      <p className="blurb"><strong>FreeThrowMerchant</strong> is a Discord bot meant to provide easy access to NBA information, by accessing the BALLDONTLIE API, interpreting its output, and presenting the information in a digestible way for any user. </p>
+
+      <NolnButton
+        className="elementcenter"
+        to="https://github.com/nndpznn/nndpznn"
+        target="_blank"
+        buttonTitle="Languages"
+      ></NolnButton>
+
+      <img className="languagelogo" src={pythonlogo} height="125" width="125" />
+      <p className="blurb"><strong>Python</strong> is the language I have known for the longest. Starting from Hour of Code days and programming minigames in school, and through Data Structures and Algorithms, I've made use of it to develop basic search algorithms <strong>(BFS, DFS, A*)</strong>, and to tackle more complicated paradigms including <strong>minimax/alpha-beta pruning, dynamic programming and constraint satisfaction</strong>(using hillclimbing and simulated annealing).</p>
+
+      <ul className="centerhorizontallist">
+        <li><img className="languagelogo" src={reactlogo} height="100" width="100" /></li>
+        <li><img className="languagelogo" src={nextjslogo} height="100" width="100" /></li>
+        <li><img className="languagelogo" src={jslogo} height="125" width="125" /></li>
+        <li><img className="languagelogo" src={threejslogo} height="100" width="100" /></li>
+        <li><img className="languagelogo" src={discordbotslogo} height="100" width="100" /></li>
+      </ul>
+
+      <p className="blurb"><strong>JavaScript</strong> is a new favorite of mine; I'm always impressed by its versatility and the giant ecosystem of open-source libraries that are just a click away. I've gotten to use it in a number of different situations, including creating a custom 3D graphics library with <strong>ThreeJS</strong>, setting up a Discord bot using <strong>Discord.js</strong>, and now developing my own web app using <strong>TypeScript, React & Next.js</strong>.</p>
+
+      <img className="languagelogo" src={swiftlogo} height="125" width="125" />
+      <p className="blurb"><strong>Swift</strong> was a language I picked up last semester while taking a mobile development practicum course. I was attracted to its simplicity and approachable learning curve, which helped a lot when learning how to organize my own full-stack mobile applications with <strong>Firebase</strong>. </p>
+        
+
+      <hr></hr>
+      <br></br>
+      <br></br>
+
     </div>
   );
 }
