@@ -15,7 +15,6 @@ export default function Resume() {
         className="elementcenter resume"
         title="nolan's resume"
         src={nolanpdf}
-        frameborder="0"
       ></iframe>
       <br></br>
     </div>

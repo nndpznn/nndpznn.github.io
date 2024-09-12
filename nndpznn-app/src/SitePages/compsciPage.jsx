@@ -41,18 +41,13 @@ export default function CompSci() {
       <br></br>
       <NolnButton className="elementcenter" to="https://github.com/nndpznn/viDoc" target="_blank" buttonTitle="viDoc"></NolnButton>
 
-      <p className="blurb"><strong>viDoc</strong> is a *work-in-progress* web app designed to streamline the creative process for video content creators, providing space to take notes, compose shotlists, and organize ideas visually on a graphic timeline. I'm making use of React with TypeScript, Next.js, Supabase and MaterialUI to put this together.</p>
+      <p className="blurb"><strong>viDoc</strong> is a *work-in-progress* web app designed to streamline the creative process for video content creators, providing space to take notes, compose shotlists, and organize ideas visually on a graphic timeline. I'm making use of React with TypeScript, Next.js, Supabase and MaterialUI to put this together. Thank you to the LMU Keck Lab manager, <strong><a href="https://github.com/masaok" target="_blank">Masao Kitamura</a></strong> for his guidance in setting up the database and libraries!</p>
 
       <NolnButton className="elementcenter" to="https://github.com/nndpznn/FreeThrowMerchant" target="_blank" buttonTitle="FreeThrowMerchant"></NolnButton>
 
       <p className="blurb"><strong>FreeThrowMerchant</strong> is a Discord bot meant to provide easy access to NBA information, by accessing the BALLDONTLIE API, interpreting its output, and presenting the information in a digestible way for any user. </p>
 
-      <NolnButton
-        className="elementcenter"
-        to="https://github.com/nndpznn/nndpznn"
-        target="_blank"
-        buttonTitle="Languages"
-      ></NolnButton>
+      <NolnHeader headerTitle="Languages"></NolnHeader>
 
       <img className="languagelogo" src={pythonlogo} height="125" width="125" />
       <p className="blurb"><strong>Python</strong> is the language I have known for the longest. Starting from Hour of Code days and programming minigames in school, and through Data Structures and Algorithms, I've made use of it to develop basic search algorithms <strong>(BFS, DFS, A*)</strong>, and to tackle more complicated paradigms including <strong>minimax/alpha-beta pruning, dynamic programming and constraint satisfaction</strong>(using hillclimbing and simulated annealing).</p>

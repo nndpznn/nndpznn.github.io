@@ -20,7 +20,7 @@ export default function AboutMe() {
       <br></br>
 
       <p className="aboutmeblurb">
-        Hi! My name is Nolan - I'm a sophomore computer science major and
+        Hello! My name is Nolan - I'm a sophomore computer science major and
         business minor currently attending Loyola Marymount University.
         <br></br>
         <br></br>I was born and raised in the SF Bay Area; I grew up with a camera in my hands and learned to express myself through photo and video. Both offer endless rabbit holes of styles, mediums and approaches to creating and capturing life, resulting in an extremely personal process to each different person behind the lens. I could never get sick of it; there was simply always more to learn. And every time I jumped into something new, I realized more and more how much I didn't know, and also, how few rules there really were. <br></br>

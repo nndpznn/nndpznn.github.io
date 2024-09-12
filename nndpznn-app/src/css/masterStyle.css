@@ -3,6 +3,8 @@
 * {
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --site-color: #787b87;
+    --accent-color: #6072f4;
 }
 
 h1 {
@@ -11,15 +13,15 @@ h1 {
 }
 
 p {
-    font-size: 3.5vh;
-    margin: 30px 100px;
+    font-size: 3vh;
+    margin: 30px 0%;
 }
 
 body {
     margin: 15px;
-    background-color: #787b87;
-    margin-left: 100px;
-    margin-right: 100px;
+    background-color: var(--site-color);
+    margin-left: 10%;
+    margin-right: 10%;
     height: 100vh;
 }
 
@@ -79,7 +81,7 @@ hr {
 }
 
 .aboutmepfp {
-    width: 60vh;
+    width: 40vw;
     left: 15;
 }
 
@@ -88,15 +90,22 @@ hr {
     height: 116vh;
 }
 
+@media (max-width: 768px) {
+    .width75, .width85, .banner, .aboutmepfp {
+        width: 90%;
+        margin: auto;
+    }
+}
+
 .aboutmeblurb {
-    font-size: 3vh;
-    margin: auto 15px;
+    margin: 5% 3%;
 }
 
 .languagelogo {
     border-radius: 20px;
     display: flex;
-    margin: auto; 
+    margin: auto;
+    margin-top: 15px; 
     padding: 0; 
     justify-content: center;
 }

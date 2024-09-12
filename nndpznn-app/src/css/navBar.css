@@ -10,15 +10,32 @@
 
 .nav ul {
     padding: 10px;
+    justify-content: center;
     text-align: center;
     margin: 0;
     list-style: none;
+    flex-wrap: wrap;
     display: flex;
     gap: 2rem;
 }
 
-.nav li {
+.nav ul li {
+    display: inline;
     padding: 10px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+
+    .nav ul li {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    p {
+        font-size: 2vh;
+    }
 }
 
 .nav li.active {
