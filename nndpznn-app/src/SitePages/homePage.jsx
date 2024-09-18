@@ -14,7 +14,6 @@ export default function Home() {
         className="elementcenter width75 roundedimage"
         alt="Nolan PFP 2"
       />
-      <br></br>
 
       <p className="textcenter blurb">
         While currently a work-in-progress, this site will eventually serve as a central hub for all of my computer science

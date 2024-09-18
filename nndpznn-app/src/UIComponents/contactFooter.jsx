@@ -12,7 +12,7 @@ export default function ContactFooter() {
               target="_blank"
               rel="noreferrer"
             >
-              <strong>LinkedIn</strong>
+              <b>LinkedIn</b>
             </a>
           </li>
           <li>
@@ -21,7 +21,7 @@ export default function ContactFooter() {
               target="_blank"
               rel="noreferrer"
             >
-              <strong>GitHub</strong>
+              <b>GitHub</b>
             </a>
           </li>
           <li>
@@ -30,7 +30,7 @@ export default function ContactFooter() {
               target="_blank"
               rel="noreferrer"
             >
-              <strong>YouTube</strong>
+              <b>YouTube</b>
             </a>
           </li>
           <li>
@@ -39,14 +39,14 @@ export default function ContactFooter() {
               target="_blank"
               rel="noreferrer"
             >
-              <strong>Instagram</strong>
+              <b>Instagram</b>
             </a>
           </li>
         </ul>
       </nav>
 
       <p className="textcenter">
-        v3.1 powered by React & Vite | Questions? Comments? Job offers? Email me at
+        v3.2 powered by React & Vite | Questions? Comments? Job offers? Email me at
         nolandelapaznguyen@gmail.com
       </p>
       <br></br>

@@ -13,3 +13,10 @@
 .nolnButton:hover {
     color: #CCCCCC;
 }
+
+@media (max-width: 768px) {
+
+    h1, b {
+        font-size: 3.5vh;
+    }
+}

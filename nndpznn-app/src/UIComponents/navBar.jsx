@@ -21,7 +21,12 @@ export default function NavBar() {
         <CustomLink to="/resume">
           <b>RESUME</b>
         </CustomLink>
+        {/* <CustomLink to="../assets/NolanNguyenResume.pdf" target="_blank">
+          <b>RESUME</b>
+        </CustomLink> */}
       </ul>
+
+      <hr></hr>
     </nav>
   );
 }

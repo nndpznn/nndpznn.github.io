@@ -4,7 +4,7 @@ import "../css/masterStyle.css";
 
 import NolnHeader from "../UIComponents/nolnHeader";
 
-import nolanpdf from "../assets/NolanNguyenResume_0224.pdf";
+import nolanpdf from "../assets/NolanNguyenResume_0924.pdf";
 
 export default function Resume() {
   return (
@@ -17,6 +17,8 @@ export default function Resume() {
         src={nolanpdf}
       ></iframe>
       <br></br>
+
+      <p className="textcenter"><i>(Thank you to my good friend <b><a href="https://www.linkedin.com/in/axel-pestoni/" target="_blank">Axel Pestoni</a></b> whose resume I borrowed for a template)</i></p>
     </div>
   );
 }

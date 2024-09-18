@@ -58,7 +58,6 @@ hr {
     text-align: center;
 }
 
-
 .roundedimage {
     border-radius: 25px;
 }
@@ -86,14 +85,18 @@ hr {
 }
 
 .resume {
-    width: 50vw;
-    height: 116vh;
+    width: 80%;
+    height: 100vh;
 }
 
 @media (max-width: 768px) {
     .width75, .width85, .banner, .aboutmepfp {
         width: 90%;
         margin: auto;
+    }
+
+    .resume {
+        height: 50vh;
     }
 }
 

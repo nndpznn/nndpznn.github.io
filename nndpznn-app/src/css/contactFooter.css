@@ -6,3 +6,15 @@
     bottom: 0;
     background: #6072f4;
 }
+
+@media (max-width: 768px) {
+
+    .footer {
+        font-size: 2vh;
+        
+    }
+
+    /* strong {
+        font-size: 3vh;
+    } */
+}
