@@ -17,7 +17,7 @@ export default function PhotoVideo() {
         className="elementcenter width85 roundedimage"
         alt="nolan camera portrait"
       />
-      <br></br>
+
       <p className="blurb">
         Since middle school, photo and video have been my primary creative
         outlets, enabling me to save and present my most precious memories to

@@ -18,7 +18,7 @@ export default function Resume() {
       ></iframe>
       <br></br>
 
-      <p className="textcenter"><i>(Thank you to my good friend <b><a href="https://www.linkedin.com/in/axel-pestoni/" target="_blank">Axel Pestoni</a></b> whose resume I borrowed for a template)</i></p>
+      <p className="textcenter"><i>(Thank you to my good friend <strong><a href="https://www.linkedin.com/in/axel-pestoni/" target="_blank">Axel Pestoni</a></strong> whose resume I borrowed for a template)</i></p>
     </div>
   );
 }
