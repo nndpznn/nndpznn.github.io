@@ -32,7 +32,7 @@ export default function PhotoVideo() {
       <NolnButton
         to="https://www.laloyolan.com/users/profile/nolan%20nguyen/"
         target="_blank"
-        buttonTitle="My Loyolan Work"
+        buttonTitle="The LA Loyolan"
       ></NolnButton>
 
       <br></br>
@@ -74,7 +74,7 @@ export default function PhotoVideo() {
       <NolnButton
         to="https://www.youtube.com/@-nolan"
         target="_blank"
-        buttonTitle="My Personal Channel"
+        buttonTitle="Personal Channel"
       ></NolnButton>
 
       <br></br>

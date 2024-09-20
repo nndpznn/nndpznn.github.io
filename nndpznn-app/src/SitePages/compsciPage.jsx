@@ -17,7 +17,6 @@ export default function CompSci() {
   return (
     <div>
       <NolnHeader headerTitle="Computer Science Projects"></NolnHeader>
-      <br></br>
       {/* <img
         src={notfoundPlaceholder}
         className="elementcenter width75 roundedimage"
@@ -37,6 +36,7 @@ export default function CompSci() {
         target="_blank"
         buttonTitle="nndpznn on GitHub"
       ></NolnButton> */}
+      <p className="textcenter">Click the project headers below to go to their respective repositories!</p>
 
       <br></br>
       <NolnButton className="elementcenter" to="https://github.com/nndpznn/viDoc" target="_blank" buttonTitle="viDoc"></NolnButton>
@@ -45,7 +45,7 @@ export default function CompSci() {
 
       <NolnButton className="elementcenter" to="https://github.com/nndpznn/FreeThrowMerchant" target="_blank" buttonTitle="FreeThrowMerchant"></NolnButton>
 
-      <p className="blurb"><strong>FreeThrowMerchant</strong> is a Discord bot meant to provide easy access to NBA information, by accessing the BALLDONTLIE API, interpreting its output, and presenting the information in a digestible way for any user. </p>
+      <p className="blurb"><strong>FreeThrowMerchant</strong> is a Discord bot meant to provide easy access to NBA information, by accessing sports databases, interpreting its output, and presenting the information in a digestible format. Users can search for player averages, game scores and status, and will eventually be able to see live game information with player stats. FTM is powered by Discord.js, the BALLDONTLIE API, and the NPM cron library.</p>
 
       <NolnHeader headerTitle="Languages"></NolnHeader>
 

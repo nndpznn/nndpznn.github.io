@@ -3,7 +3,8 @@
     border: none;
     border-radius: 15px;
     padding: 10px;
-    margin-bottom: 25px;
+    border: none;
+    margin: 0 auto;
     
     font-size: 4vh;
     text-align: center;
