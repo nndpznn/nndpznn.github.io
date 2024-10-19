@@ -9,11 +9,11 @@ export default function NavBar() {
         <CustomLink to="/">
           <b>HOME</b>
         </CustomLink>
-        <CustomLink to="/photovideo">
-          <b>CREATIVE</b>
-        </CustomLink>
         <CustomLink to="/compsci">
           <b>COMPSCI</b>
+        </CustomLink>
+        <CustomLink to="/photovideo">
+          <b>CREATIVE</b>
         </CustomLink>
         <CustomLink to="/aboutme">
           <b>ABOUT</b>

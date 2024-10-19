@@ -71,7 +71,7 @@ export default function PhotoVideo() {
       <hr></hr>
       <br></br>
 
-      <NolnButton
+      {/* <NolnButton
         to="https://www.youtube.com/@-nolan"
         target="_blank"
         buttonTitle="Personal Channel"
@@ -97,7 +97,7 @@ export default function PhotoVideo() {
         started making videos in the first place. While I do have a lot of fun
         making them, I still strive to improve some part of my technique or
         writing every time.
-      </p>
+      </p> */}
     </div>
   );
 }
