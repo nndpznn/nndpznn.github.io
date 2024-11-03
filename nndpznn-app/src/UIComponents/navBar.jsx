@@ -9,24 +9,25 @@ export default function NavBar() {
         <CustomLink to="/">
           <b>HOME</b>
         </CustomLink>
-        <CustomLink to="/compsci">
-          <b>COMPSCI</b>
+        <CustomLink to="/projects">
+          <b>PROJECTS</b>
         </CustomLink>
-        <CustomLink to="/photovideo">
+        <CustomLink to="/skills">
+          <b>SKILLS</b>
+        </CustomLink>
+
+        {/* <CustomLink to="/photovideo">
           <b>CREATIVE</b>
-        </CustomLink>
+        </CustomLink> */}
+        {/* Not the focus for now. Disabling... */}
+
         <CustomLink to="/aboutme">
           <b>ABOUT</b>
         </CustomLink>
         <CustomLink to="/resume">
           <b>RESUME</b>
         </CustomLink>
-        {/* <CustomLink to="../assets/NolanNguyenResume.pdf" target="_blank">
-          <b>RESUME</b>
-        </CustomLink> */}
       </ul>
-
-      <hr></hr>
     </nav>
   );
 }

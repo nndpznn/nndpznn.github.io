@@ -64,7 +64,16 @@ hr {
 }
 
 .roundedimage {
-    border-radius: 25px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.sidebyside {
+    display: flex;
+}
+
+.width50 {
+    width: 50%;
 }
 
 .width75 {

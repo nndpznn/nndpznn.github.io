@@ -2,6 +2,7 @@ import "./App.css";
 
 import Home from "./SitePages/homePage";
 import CompSci from "./SitePages/compsciPage";
+import Skills from "./SitePages/skillsPage";
 import PhotoVideo from "./SitePages/photovideoPage";
 import AboutMe from "./SitePages/aboutmePage";
 import Resume from "./SitePages/resumePage";
@@ -17,8 +18,9 @@ export default function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<CompSci />} />
+        <Route path="/skills" element={<Skills />} />
         <Route path="/photovideo" element={<PhotoVideo />} />
-        <Route path="/compsci" element={<CompSci />} />
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
