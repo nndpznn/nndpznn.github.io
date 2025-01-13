@@ -4,7 +4,7 @@ import "../css/masterStyle.css";
 
 import NolnHeader from "../UIComponents/nolnHeader";
 
-import nolanpdf from "../assets/NolanNguyenResume_0924.pdf";
+import nolanpdf from "../assets/NolanNguyenResume_0125.pdf";
 
 export default function Resume() {
   return (

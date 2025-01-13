@@ -19,7 +19,7 @@ export default function Home() {
         {/* While currently a work-in-progress, this site will eventually serve as a central hub for all of my computer science
         and creative projects. But, for the time being ... here it is, in all
         its bare-bones glory. Best viewed in desktop. */}
-        <strong>Hey there!</strong> My name is Nolan - I'm currently a third-year Computer Science major and Business Admin minor at Loyola Marymount University in Los Angeles(actually, as of Fall 2024 I'm studying abroad at Sogang University in South Korea!). This site doubles as a pseudo-portfolio and a place to document/keep track of my projects and ideas. If you like, feel free to click around and see where my interests have taken me.
+        <strong>Hey there!</strong> My name is Nolan - I'm currently a third-year Computer Science major and Business Admin minor at Loyola Marymount University in Los Angeles. This site doubles as a pseudo-portfolio and a place to document/keep track of my projects and ideas. If you like, feel free to click around and see where my interests have taken me.
       </p>
       <br></br>
     </div>
