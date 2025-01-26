@@ -28,7 +28,7 @@ export default function CompSci() {
       <div className="spacenews">
         <NolnButton to="https://github.com/nndpznn/SpaceNewsClone" target="_blank" buttonTitle="SpaceNews: Your Starside Informant"></NolnButton>
 
-          <img className="roundedimage demoimage" src={spaceNewsDemo}></img>
+          <img className="roundedimage demoimage width50" src={spaceNewsDemo}></img>
 
         <p className="blurb"><strong>SpaceNews</strong> aims to provide a smooth, weightless browsing experience with the latest updates on rocket launches, orbital events, and more, from a plethora of reliable sources, including the International Space Station report feed itself. While you scroll through our curated newsfeed to your hearts' content, enjoy the appropriately-themed UI and fully-animated background — it's like you're really there! <br></br><br></br> This app was assembled using Swift and SwiftUI, and accesses the Spaceflight News API.</p>
 

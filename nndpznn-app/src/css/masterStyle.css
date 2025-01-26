@@ -16,6 +16,7 @@ h1 {
 p {
     font-size: 3vh;
     margin: 15px 0 30px;
+    line-height: 40px
 }
 
 body {
@@ -28,6 +29,7 @@ body {
 
 a {
     text-decoration: none;
+    color:black;
 }
 
 a:hover {
