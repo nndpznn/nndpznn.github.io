@@ -7,13 +7,13 @@ export default function NavBar() {
     <nav className="nav">
       <ul>
         <CustomLink to="/">
-          <b>HOME</b>
+          <b>.home</b>
         </CustomLink>
         <CustomLink to="/projects">
-          <b>PROJECTS</b>
+          <b>.work</b>
         </CustomLink>
         <CustomLink to="/skills">
-          <b>SKILLS</b>
+          <b>.skills</b>
         </CustomLink>
 
         {/* <CustomLink to="/photovideo">
@@ -22,10 +22,10 @@ export default function NavBar() {
         {/* Not the focus for now. Disabling... */}
 
         <CustomLink to="/aboutme">
-          <b>ABOUT</b>
+          <b>.about</b>
         </CustomLink>
         <CustomLink to="/resume">
-          <b>RESUME</b>
+          <b>.resume</b>
         </CustomLink>
       </ul>
     </nav>

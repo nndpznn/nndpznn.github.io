@@ -36,6 +36,8 @@ export default function Skills() {
                 <p className="blurb"><strong>Swift</strong> was a language I picked up last semester while taking a mobile development practicum course. I was attracted to its simplicity and approachable learning curve, which helped a lot when learning how to organize my own full-stack mobile applications with <strong>Firebase</strong>. </p>
             </div>
 
+        <hr></hr>
+
         </div>
     )
 }

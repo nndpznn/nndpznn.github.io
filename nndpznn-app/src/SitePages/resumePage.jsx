@@ -19,6 +19,8 @@ export default function Resume() {
       <br></br>
 
       <p className="textcenter"><i>(Thank you to my good friend <strong><a href="https://www.linkedin.com/in/axel-pestoni/" target="_blank">Axel Pestoni</a></strong> whose resume I borrowed for a template)</i></p>
+      <hr></hr>
+      
     </div>
   );
 }

@@ -42,12 +42,15 @@
 }
 
 .nav li.active {
-    background-color: #6072f4;
+    /* background-color: #a6a2a2; */
     border-radius: 15px;
+    color: #102BEF;
+    text-decoration:underline;
+    text-decoration-thickness: 7px;
 }
 
 .nav li:hover {
-    color: #CCCCCC;
+    color: #4f63f4;
 }
 
 .nav a {
