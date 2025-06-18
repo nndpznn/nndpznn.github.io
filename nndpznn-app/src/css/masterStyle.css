@@ -1,8 +1,10 @@
 /* Thanks to W3Schools and Web Dev Simplified on YT for plenty of html/CSS support. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
 
 * {
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif !important;
     --site-color: #cfd1dc;
     --accent-color: #b8b8bd;
     --hover-color: #CCCCCC
