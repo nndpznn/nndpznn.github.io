@@ -5,23 +5,25 @@ import namsanportrait from "../assets/namsanportrait.jpg";
 
 export default function Home() {
   return (
-    <div id="top-of-page">
+    <div id="top-of-page" className="">
       <h1 className="nolnHeader"><b>Nolan Nguyen</b></h1>
-      <h2 className>Rising senior CompSci major, aspiring full-stack dev.</h2>
-      <img
-        src={namsanportrait}
-        className="elementcenter width75 roundedimage"
-        alt="Nolan PFP 2"
-      />
+      <h2 className>senior compsci major, aspiring software engineer.</h2>
 
-      <p className="blurb">
+      <div className="flex justify-center">
+        <img
+          src={namsanportrait}
+          className="m-4 w-[50vh] rounded-4xl"
+          alt="Nolan PFP 2"
+        />
+      </div>
+
+      <p className="text-3xl mx-10 mt-4">
         {/* While currently a work-in-progress, this site will eventually serve as a central hub for all of my computer science
         and creative projects. But, for the time being ... here it is, in all
         its bare-bones glory. Best viewed in desktop. */}
-        <strong>Hey there!</strong> My name is Nolan - I'm currently a third-year Computer Science major and Business Admin minor at Loyola Marymount University in Los Angeles. This site doubles as a pseudo-portfolio and a place to document/keep track of my projects and ideas. If you like, feel free to click around and see where my interests have taken me.
+        Hi, my name is Nolan - I'm currently a senior Computer Science major and Business Admin minor at Loyola Marymount University, graduating May 2026. Here's my pseudo-portfolio in website form. If you like, feel free to click around!
       </p>
-      <hr></hr>
-      <br></br>
+
     </div>
   );
 }

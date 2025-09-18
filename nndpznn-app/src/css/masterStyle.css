@@ -1,9 +1,9 @@
 /* Thanks to W3Schools and Web Dev Simplified on YT for plenty of html/CSS support. */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+@import "tailwindcss";
 
 * {
-    box-sizing: border-box;
     font-family: 'Inter', sans-serif !important;
     --site-color: #cfd1dc;
     --accent-color: #b8b8bd;
@@ -12,7 +12,7 @@
 
 h1 {
     text-align: left;
-    font-size: 7vh;
+    font-size: 3.5rem;
 }
 
 h2 {
@@ -21,11 +21,9 @@ h2 {
     margin-top: 10px;
 }
 
-p {
+/* p {
     font-size: 3vh;
-    margin: 15px 0 30px;
-    line-height: 40px
-}
+} */
 
 body {
     margin: 15px;
@@ -69,29 +67,10 @@ img {
     align-items: baseline;
 }
 
-.divcenter {
-    justify-content: center;
-}
-
-.textcenter {
-    text-align: center;
-}
 
 .roundedimage {
     border-radius: 50px;
     padding: 5px;
-}
-
-.sidebyside {
-    display: flex;
-}
-
-.width50 {
-    width: 50%;
-}
-
-.width75 {
-    width: 65vh;
 }
 
 .width85 {
@@ -102,23 +81,6 @@ img {
     width: 80vh;
 }
 
-.text-on-right {
-    float: left;
-    padding: 20px;
-}
-
-.aboutmepfp {
-    width: 31vw;
-    left: 15;
-    margin-top: 5vh;
-    margin-right: 2vw;
-    margin-bottom: 2vw;
-}
-
-.resume {
-    width: 80%;
-    height: 100vh;
-}
 
 @media (max-width: 768px) {
     .width75, .width85, .banner, .aboutmepfp {
@@ -131,28 +93,15 @@ img {
     }
 }
 
-.aboutmeblurb {
-    margin: 5% 3%;
-}
-
 .languagelogo {
     border-radius: 20px;
-    display: flex;
-    margin: auto;
     margin-top: 15px; 
     padding: 0; 
-    justify-content: center;
 }
-
-/* .blurb {
-    background-color: #90929c;
-    padding: 15px;
-    border-radius: 15px;
-} */
 
 /* .divSoup {
     background-color: #90929c;
-    padding: 15px;
+    padding: 15px;   
     border-radius: 15px;
 } */
 

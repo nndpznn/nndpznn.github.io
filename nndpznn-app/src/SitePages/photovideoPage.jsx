@@ -14,11 +14,11 @@ export default function PhotoVideo() {
       <br></br>
       <img
         src={nolancamera}
-        className="elementcenter width85 roundedimage"
+        className="flex m-auto w-[85vh] rounded-3xl"
         alt="nolan camera portrait"
       />
 
-      <p className="blurb">
+      <p className="">
         Since middle school, photo and video have been my primary creative
         outlets, enabling me to save and present my most precious memories to
         others, and landing me opportunities to work and develop my skills such
@@ -50,14 +50,14 @@ export default function PhotoVideo() {
         />
       </a>
 
-      <p className="textcenter">
+      <p className="text-center">
         <em>
           The Los Angeles Loyolan is a student-run digital publication serving
           communities in the LMU and Westchester area.
         </em>
       </p>
 
-      <p className="blurb">
+      <p className="">
         Throughout my time at the Loyolan, I have been met with nothing but
         motivation and encouragement to improve as not only a videographer, but
         also as a team member and leader. The projects I've been involved in
@@ -68,7 +68,6 @@ export default function PhotoVideo() {
 
       {/* <NolnHeader headerTitle="Feature: Albert the Crossing Guard"></NolnHeader> */}
 
-      <hr></hr>
       <br></br>
 
       {/* <NolnButton

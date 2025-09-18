@@ -1,12 +1,11 @@
 .nolnButton {
-    background-color: #cfd1dc;
+    /* background-color: #cfd1dc; */
     border: none;
     border-radius: 15px;
-    padding: 10px;
     border: none;
     margin: 15 auto;
     
-    font-size: 4vh;
+    font-size: 5vh;
     text-align: center;
     text-decoration: none;
 }

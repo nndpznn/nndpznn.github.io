@@ -4,7 +4,9 @@ import "../css/contactFooter.css";
 export default function ContactFooter() {
   return (
     <div>
+              <hr></hr>
       <nav className="nav footer">
+        
         <ul>
           <li>
             <a
@@ -26,7 +28,7 @@ export default function ContactFooter() {
           </li>
           <li>
             <a
-              href="https://www.youtube.com/@-nolan"
+              href="https://www.youtube.com/@nolndn"
               target="_blank"
               rel="noreferrer"
             >
@@ -45,8 +47,8 @@ export default function ContactFooter() {
         </ul>
       </nav>
 
-      <p className="textcenter">
-        v4.0 powered by React & Vite | Questions? Comments? Job offers? Email me at
+      <p className="text-center text-2xl">
+        v4.1 powered by React & Vite | Questions? Comments? Job offers? Email me at
         nolandelapaznguyen@gmail.com
       </p>
       <br></br>

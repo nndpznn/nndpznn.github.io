@@ -14,7 +14,7 @@ import { Route, Routes } from "react-router-dom";
 
 export default function App() {
   return (
-    <div className="container">
+    <div className="container m-auto">
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
