@@ -4,6 +4,8 @@ Moving forward, this will be my central spot to share and document all of my pro
 
 ## Future content?
 - A blog-style page with project updates, with the end goal of connecting all of my platforms like Youtube, Github, etc.
+- Projects section of CompSci page
+- Skills section of CompSci page
 
 ## Credits/Special Thanks
 
