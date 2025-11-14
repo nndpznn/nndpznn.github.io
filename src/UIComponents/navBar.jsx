@@ -4,7 +4,7 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
 export default function NavBar() {
   return (
-    <nav className="nav">
+    <nav className="nav w-fit bg-gray-900 rounded-3xl fixed top-3 left-1/2 -translate-x-1/2 z-50 shadow-xl">
       <ul>
         <CustomLink to="/">
           <b>.home</b>

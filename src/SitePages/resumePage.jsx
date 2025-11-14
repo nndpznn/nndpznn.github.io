@@ -4,19 +4,27 @@ import "../css/masterStyle.css";
 
 import NolnHeader from "../UIComponents/nolnHeader";
 
-import nolanpdf from "../assets/NolanNguyenResume_0925.pdf";
+import nolanresumejpeg from "../assets/NolanNguyenResume_1025.jpg"
+import { Image} from "@heroui/react";
 
 export default function Resume() {
+
   return (
-    <div className="container">
+    <div className="">
       <NolnHeader headerTitle="Resume"></NolnHeader>
       <p className="italic text-3xl">Don't wait, call now!</p>
       <br></br>
-      <iframe
-        className="m-auto w-[80%] h-screen"
-        title="nolan's resume"
-        src={nolanpdf}
-      ></iframe>
+
+      <div  
+        className="flex justify-center"
+      >
+        <Image 
+          src={nolanresumejpeg}
+          alt="nolan nguyen resume utd. october 2025"
+          className="w-[50vw] shadow-xl"
+        />
+      </div>
+
       <br></br>
 
       <p className="text-center text-2xl"><i>(Thank you to my friend <strong><a href="https://www.linkedin.com/in/axel-pestoni/" target="_blank">Axel Pestoni</a></strong> whose resume I borrowed for a template)</i></p>
