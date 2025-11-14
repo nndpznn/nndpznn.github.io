@@ -48,7 +48,7 @@ export default function ContactFooter() {
       </nav>
 
       <p className="text-center text-2xl">
-        v4.1 powered by React & Vite | Questions? Comments? Job offers? Email me at
+        v4.2 powered by React & Vite | Questions? Comments? Job offers? Email me at
         nolandelapaznguyen@gmail.com
       </p>
       <br></br>

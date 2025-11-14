@@ -13,7 +13,7 @@ export default function Resume() {
       <p className="italic text-3xl">Don't wait, call now!</p>
       <br></br>
       <iframe
-        className="m-auto w-[80%] h-[100vh]"
+        className="m-auto w-[80%] h-screen"
         title="nolan's resume"
         src={nolanpdf}
       ></iframe>
