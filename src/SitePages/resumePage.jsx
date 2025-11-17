@@ -2,8 +2,6 @@
 
 import "../css/masterStyle.css";
 
-import NolnHeader from "../UIComponents/nolnHeader";
-
 import nolanresumejpeg from "../assets/NolanNguyenResume_1025.jpg"
 import { Image} from "@heroui/react";
 
@@ -11,7 +9,7 @@ export default function Resume() {
 
   return (
     <div className="">
-      <NolnHeader headerTitle="Resume"></NolnHeader>
+      <h1 className="font-bold">Resume</h1>
       <p className="italic text-3xl">Don't wait, call now!</p>
       <br></br>
 
@@ -21,7 +19,7 @@ export default function Resume() {
         <Image 
           src={nolanresumejpeg}
           alt="nolan nguyen resume utd. october 2025"
-          className="w-[50vw] shadow-xl"
+          className="resume shadow-xl"
         />
       </div>
 

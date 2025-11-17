@@ -1,7 +1,6 @@
 import "../css/masterStyle.css";
 
 import NolnButton from "../UIComponents/nolnButton";
-import NolnHeader from "../UIComponents/nolnHeader";
 
 import nolancamera from "../assets/nolanwcameraWIDE.JPG";
 import loyolanBanner from "../assets/loyolanbanner.jpeg";
@@ -10,7 +9,8 @@ import nolanchannelbanner from "../assets/nolanchannelbanner.jpg";
 export default function PhotoVideo() {
   return (
     <div>
-      <NolnHeader headerTitle="Photo and Video"></NolnHeader>
+      <h1 className="font-bold">Photo and Video</h1>
+      
       <br></br>
       <img
         src={nolancamera}

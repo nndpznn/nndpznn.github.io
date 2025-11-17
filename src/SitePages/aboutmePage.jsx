@@ -1,7 +1,6 @@
 import "../css/masterStyle.css";
 
 import NolnButton from "../UIComponents/nolnButton";
-import NolnHeader from "../UIComponents/nolnHeader";
 
 import nolanhiking from "../assets/nolanhiking.jpeg";
 import nolanpdf from "../assets/NolanNguyenResume_0925.pdf";
@@ -9,17 +8,17 @@ import nolanpdf from "../assets/NolanNguyenResume_0925.pdf";
 export default function AboutMe() {
   return (
 <div id="top-of-page" className="">
-  <NolnHeader headerTitle="About Nolan Nguyen"></NolnHeader>
+  <h1 className="font-bold">About Nolan</h1>
 
   <div className="flex justify-center mx-auto max-w-7xl px-4"> 
     
     <img
       src={nolanhiking}
-      className="rounded-3xl m-4 w-1/3 mt-5 mr-6 mb-3 object-cover" 
+      className="aboutmepfp rounded-3xl m-4 w-1/3 mt-5 mr-6 mb-3 object-cover" 
       alt="nolan hiking in the bay area"
     />
 
-    <p className="mt-5 text-2xl w-2/3">
+    <p className="mt-5 text-2xl">
       Hey there! My name is Nolan Nguyen. I'm currently a senior Computer Science major and Business Administration minor at Loyola Marymount University in Los Angeles. I hail from a tiny tucked-away town in the Bay Area named Alameda.
       <br></br>
       <br></br>

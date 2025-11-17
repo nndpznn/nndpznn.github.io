@@ -1,7 +1,5 @@
 import "../css/masterStyle.css";
 
-import NolnButton from "../UIComponents/nolnButton";
-import NolnHeader from "../UIComponents/nolnHeader";
 import ProjectCard from "../UIComponents/projectCard";
 
 import vidocDemo1 from "../assets/demoImages/vidocDemo1.png"
@@ -11,6 +9,8 @@ import awsinterns2025 from "../assets/demoImages/awsinterns2025.jpg"
 import ftmdemo2 from "../assets/demoImages/ftmdemo2.png"
 import blipdemo1 from "../assets/demoImages/blipdemo1.png"
 import blipdemo2 from "../assets/demoImages/blipdemo2.png"
+
+import nolanCrouching from "../assets/nolancrouching.JPG"
 
 export default function CompSci() {
 const projects = [
@@ -24,7 +24,7 @@ const projects = [
     stack: "Stack: Java, LangChain, AWS CloudWatch & AWS Lambda.",
   },
   {
-    id: 'vidoc',
+    id: 'blip',
     title: "[WIP] blip: find your next car meet",
     date: "February 2025 - Ongoing",
     desc: "blip targets carspotters who are accustomed to scouring countless social pages, forums, and communities looking for the next enthusiast get-together. use the map to find your next event, or create a profile and start organizing your own!",
@@ -59,12 +59,20 @@ const projects = [
     image: ftmdemo2,
     stack: "Stack: Discord.js, BALLDONTLIE API, NPM cron library. Deployed on Railway.",
   },
-  // Add more projects here...
+  {
+    id: 'andmore',
+    title: "And much more...",
+    date: "See github.com/nndpznn, click the header!",
+    desc: "Find additional projects, ideas, and work on my Github, and see even more of me at any of the links below :) Please give me a shout if you'd like to chat about what I can offer.",
+    link: "https://github.com/nndpznn",
+    image: nolanCrouching,
+    stack: "Stack: My laptop, a comfy chair, a pair of headphones and an iced flat white.",
+  },
 ];
 
   return (
     <div>
-      <NolnHeader headerTitle="Experience & Projects"></NolnHeader>
+      <h1 className="font-bold">Experience & Projects</h1>
 
       <p className="text-3xl mb-5">Click the headers to see relevant resources.</p>
 

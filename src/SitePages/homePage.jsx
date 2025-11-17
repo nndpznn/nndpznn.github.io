@@ -6,8 +6,8 @@ import namsanportrait from "../assets/namsanportrait.jpg";
 export default function Home() {
   return (
     <div id="top-of-page" className="">
-      <h1 className="nolnHeader"><b>Nolan Nguyen</b></h1>
-      <h2 className>senior compsci major, aspiring software engineer.</h2>
+      <h1 className="text-left font-2xl"><b>Nolan Nguyen</b></h1>
+      <p className="text-3xl mb-5">senior compsci major, aspiring software engineer.</p>
 
       <div className="flex justify-center">
         <img
@@ -17,7 +17,7 @@ export default function Home() {
         />
       </div>
 
-      <p className="text-2xl mx-20 mt-4">
+      <p className="text-2xl mx-0 mt-4">
         Hi, my name is Nolan - I'm currently a senior Computer Science major and Business Admin minor at Loyola Marymount University, graduating May 2026. I love frontend web dev and agentic AI. I also love making videos, writing opinions, doing cardistry, and taking photos of cars. Here's my pseudo-portfolio in website form!
       </p>
 

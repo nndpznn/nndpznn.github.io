@@ -5,20 +5,15 @@
 
 * {
     font-family: 'Inter', sans-serif !important;
-    /* --site-color: #cfd1dc;
-    --accent-color: #b8b8bd; */
     --site-color: #000000;
     --accent-color: #525252;
-    --hover-color: #CCCCCC
 }
 
 h1 {
-    text-align: left;
     font-size: 3.5rem;
 }
 
 h2 {
-    text-align: left;
     font-size: 4vh;
     margin-top: 10px;
 }
@@ -26,6 +21,7 @@ h2 {
 /* p {
     font-size: 3vh;
 } */
+
 
 body {
     margin: 15px;
@@ -41,10 +37,6 @@ a {
     color:white;
 }
 
-a:hover {
-    color: var(--hover-color)
-}
-
 hr {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -52,62 +44,37 @@ hr {
     border-radius: 3px;
 }
 
-img {
-  box-shadow: 0 8px 24px rgba(30, 30, 30, 0.1);
+.resume {
+    width: 50vw;
 }
 
-.elementcenter {
-    display: block;
-    margin: auto;
+.short-text {
+    display: none;
+}
+/* By default, show the long version */
+.long-text {
+    display: inline; 
 }
 
-.centerhorizontallist {
-    list-style-type: none; 
-    display: flex;
-    margin: 0; 
-    padding: 0; 
-    justify-content: center;
-    align-items: baseline;
-}
-
-
-.roundedimage {
-    border-radius: 50px;
-    padding: 5px;
-}
-
-.width85 {
-    width: 85vh;
-}
-
-.banner {
-    width: 80vh;
-}
-
-
-@media (max-width: 768px) {
-    .width75, .width85, .banner, .aboutmepfp {
-        width: 90%;
-        margin: auto;
-    }
+@media (max-width: 640px) { 
 
     .resume {
-        height: 50vh;
+        width: 90vw;
+    }
+
+    /* Hide the long version */
+    .long-text {
+        display: none;
+    }
+    /* Show the short version */
+    .short-text {
+        display: inline;
+    }
+
+    .aboutmepfp {
+        display:none
     }
 }
-
-.languagelogo {
-    border-radius: 20px;
-    margin-top: 15px; 
-    padding: 0; 
-}
-
-/* .divSoup {
-    background-color: #90929c;
-    padding: 15px;   
-    border-radius: 15px;
-} */
-
 /* Colors I like:
     - lightblue
     - #d1b794 (oatmeal) 

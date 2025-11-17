@@ -1,54 +1,51 @@
 import "../css/masterStyle.css";
-import "../css/contactFooter.css";
 
 export default function ContactFooter() {
   return (
-    <div>
-              <hr></hr>
-      <nav className="nav footer">
-        
-        <ul>
+    <div className="">
+      <hr></hr>
+      <nav className="nav">
+        <ul className="flex-wrap">
           <li>
             <a
               href="https://www.linkedin.com/in/nolndn/"
               target="_blank"
               rel="noreferrer"
-            >
-              <b>linkedin/</b>
-            </a>
+              className="font-bold"
+            >linkedin/</a>
           </li>
           <li>
             <a
               href="https://github.com/nndpznn"
               target="_blank"
               rel="noreferrer"
-            >
-              <b>github/</b>
-            </a>
+              className="font-bold"
+            >github/</a>
           </li>
           <li>
             <a
               href="https://www.youtube.com/@nolndn"
               target="_blank"
               rel="noreferrer"
-            >
-              <b>youtube/</b>
-            </a>
+              className="font-bold"
+            >youtube/</a>
           </li>
           <li>
             <a
               href="https://www.instagram.com/nolandnguyen/?hl=en"
               target="_blank"
               rel="noreferrer"
-            >
-              <b>instagram/</b>
-            </a>
+              className="font-bold"
+            >instagram/</a>
           </li>
         </ul>
       </nav>
 
-      <p className="text-center text-xl">
-        v4.2 powered by React & Vite | Questions? Comments? Job offers? Email me at
+      <p className="text-center text-md">
+        v4.4 powered by React, Vite, and HeroUI.
+      </p>
+        <p className="text-center text-md">
+        Questions? Comments? Job offers? Email me at
         nolandelapaznguyen@gmail.com
       </p>
       <br></br>
