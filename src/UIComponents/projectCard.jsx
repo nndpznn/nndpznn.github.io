@@ -2,7 +2,7 @@ import "../css/masterStyle.css";
 import NolnButton from "./nolnButton"; // Assuming nolnButton is in the same directory
 
 export default function ProjectCard({ project }) {
-    const { title, desc, link, image, stack } = project;
+    const { title, date, desc, link, image, stack } = project;
     
     // Determine image rendering logic (can be expanded based on your needs)
     const renderImages = () => {
@@ -26,6 +26,9 @@ export default function ProjectCard({ project }) {
             <div>
                 {/* Use NolnButton for the title/link, as per your original structure */}
                 <NolnButton to={link} target="_blank" buttonTitle={title} />
+                <p className="text-white text-base italic">
+                    {date}
+                </p>
                 
                 {/* Render the images */}
                 {renderImages()}
