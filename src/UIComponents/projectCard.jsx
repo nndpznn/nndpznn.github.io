@@ -7,28 +7,12 @@ export default function ProjectCard({ project }) {
     // Determine image rendering logic (can be expanded based on your needs)
     const renderImages = () => {
         if (!image) return null;
-
-        // If 'image' is an array (like for viDoc)
-        if (Array.isArray(image)) {
-            return (
-                <div className="flex justify-center my-4">
-                    {image.map((imgSrc, index) => (
-                        <img 
-                            key={index} 
-                            className="rounded-lg w-1/2 mx-1 shadow-md" 
-                            src={imgSrc} 
-                            alt={`${title} screenshot ${index + 1}`}
-                        />
-                    ))}
-                </div>
-            );
-        }
         
         // If 'image' is a single source
         return (
             <div className="flex justify-center my-4">
                 <img 
-                    className="rounded-lg h-full max-h-80 object-cover shadow-md" 
+                    className="rounded-lg h-full max-h-70 object-cover shadow-md" 
                     src={image} 
                     alt={`${title} screenshot`}
                 />

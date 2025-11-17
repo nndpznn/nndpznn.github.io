@@ -9,6 +9,8 @@ import vidocDemo2 from "../assets/demoImages/vidocDemo2.png"
 import spaceNewsDemo from "../assets/demoImages/spaceNewsDemo.png"
 import awsinterns2025 from "../assets/demoImages/awsinterns2025.jpg"
 import ftmdemo2 from "../assets/demoImages/ftmdemo2.png"
+import blipdemo1 from "../assets/demoImages/blipdemo1.png"
+import blipdemo2 from "../assets/demoImages/blipdemo2.png"
 
 export default function CompSci() {
 const projects = [
@@ -22,10 +24,18 @@ const projects = [
   },
   {
     id: 'vidoc',
+    title: "[WIP] blip: find your next car meet",
+    desc: "blip targets carspotters who are accustomed to scouring countless social pages, forums, and communities looking for the next enthusiast get-together. use the map to find your next event, or create a profile and start organizing your own!",
+    link: "https://github.com/nndpznn/blip",
+    image: blipdemo2,
+    stack: "Stack: React with TypeScript, Next.js, Supabase, Mapbox and HeroUI. Set to deploy on Vercel.",
+  },
+  {
+    id: 'vidoc',
     title: "viDoc: Video Planning and Brainstorming",
     desc: "viDoc is a web app putting amateur videographers first. It's designed to streamline the creative process for content creators, providing space to take notes, compose shotlists, and organize ideas visually on a graphic timeline.",
     link: "https://github.com/nndpznn/viDoc",
-    image: vidocDemo1, // Using an array for multiple images
+    image: vidocDemo1,
     stack: "Stack: React with TypeScript, Next.js, Supabase and MaterialUI. Deployed on Vercel.",
   },
   {
