@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div id="top-of-page" className="">
       <h1 className="text-left font-2xl"><b>Nolan Nguyen</b></h1>
-      <p className="text-3xl mb-5">senior compsci major, aspiring software engineer.</p>
+      <p className="text-3xl mb-5">senior compsci major, aspiring software engineer. and no, that's not all.</p>
 
       <div className="flex justify-center">
         <img

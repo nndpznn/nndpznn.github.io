@@ -45,7 +45,7 @@ const projects = [
     id: 'spacenews',
     title: "SpaceNews: Your Starside Informant",
     date: "January 2024 - February 2024",
-    desc: "SpaceNews aims to provide a smooth, weightless browsing experience with the latest updates on rocket launches, orbital events, and more. Stack: Swift and SwiftUI, Spaceflight News API.",
+    desc: "SpaceNews aims to provide a smooth, weightless browsing experience with the latest updates on rocket launches, orbital events, and more. Accessing the Spaceflight News API, users can choose between articles and editorials on space affairs, or telemetry-filled reports directly from satellites like the ISS.",
     link: "https://github.com/nndpznn/SpaceNews",
     image: spaceNewsDemo,
     stack: "Stack: Swift and SwiftUI, Spaceflight News API.",
