@@ -42,7 +42,7 @@ export default function ContactFooter() {
       </nav>
 
       <p className="text-center text-md">
-        v4.4 powered by React, Vite, and HeroUI.
+        v4.5 powered by React, Vite, and HeroUI.
       </p>
         <p className="text-center text-md">
         Questions? Comments? Job offers? Email me at

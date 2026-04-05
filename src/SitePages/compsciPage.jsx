@@ -9,6 +9,7 @@ import awsinterns2025 from "../assets/demoImages/awsinterns2025.jpg"
 import ftmdemo2 from "../assets/demoImages/ftmdemo2.png"
 import blipdemo1 from "../assets/demoImages/blipdemo1.png"
 import blipdemo2 from "../assets/demoImages/blipdemo2.png"
+import ascotDemo from "../assets/demoImages/ascotDemo.png"
 
 import nolanCrouching from "../assets/nolancrouching.JPG"
 
@@ -24,13 +25,22 @@ const projects = [
     stack: "Stack: Java, LangChain, AWS CloudWatch & AWS Lambda.",
   },
   {
+    id: 'ascot',
+    title: "Ascot Micro-Forest Connect",
+    date: "October 2025 - Ongoing",
+    desc: "Development lead for the Ascot Micro-Forest Connect project headed by Dr. Demian Willette, a three-pronged application system dedicated to showcasing the environmental impact of micro-forests on urban areas. The project consists of a data contribution mobile app for users in the field, an administrator's portal for data/user management, and an interactive micro-forest map.",
+    link: "https://www.willettelab.com/",
+    image: ascotDemo,
+    stack: "Stack: React, React Native, Firebase, MapLibre. Deployed on Firebase, Expo, and Vercel.",
+  },
+  {
     id: 'blip',
     title: "[WIP] blip: find your next car meet",
     date: "February 2025 - Ongoing",
     desc: "blip targets carspotters who are accustomed to scouring countless social pages, forums, and communities looking for the next enthusiast get-together. use the map to find your next event, or create a profile and start organizing your own!",
     link: "https://github.com/nndpznn/blip",
     image: blipdemo2,
-    stack: "Stack: React/TypeScript, Next.js, Supabase, Mapbox and HeroUI. Set to deploy on Vercel.",
+    stack: "Stack: React/TypeScript, Next.js, Supabase, Mapbox and HeroUI. Deployed on Vercel.",
   },
   {
     id: 'vidoc',

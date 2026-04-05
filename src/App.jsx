@@ -8,6 +8,7 @@ import AboutMe from "./SitePages/aboutmePage";
 import Resume from "./SitePages/resumePage";
 
 import NavBar from "./UIComponents/navBar";
+import ScrollToTop from "./UIComponents/scrollToTop";
 import ContactFooter from "./UIComponents/contactFooter";
 
 import { Route, Routes } from "react-router-dom";
@@ -15,6 +16,7 @@ import { Route, Routes } from "react-router-dom";
 export default function App() {
   return (
     <div className="container pt-20 m-auto">
+      <ScrollToTop />
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />

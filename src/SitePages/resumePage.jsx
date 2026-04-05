@@ -16,7 +16,7 @@ export default function Resume() {
       <div  
         className="flex justify-center"
       >
-        <Image 
+        <img 
           src={nolanresumejpeg}
           alt="nolan nguyen resume utd. october 2025"
           className="resume shadow-xl"
